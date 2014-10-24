@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2CAB09B3199801FC0080CA54 /* UniversalAdsweetcher */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2CAB09B4199801FC0080CA54 /* Build configuration list for PBXAggregateTarget "UniversalAdsweetcher" */;
+			buildPhases = (
+				2CAB09B7199802770080CA54 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalAdsweetcher;
+			productName = UniversalAdsweetcher;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2CAB098D1997F77D0080CA54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB098C1997F77D0080CA54 /* Foundation.framework */; };
+		2CAB09921997F77D0080CA54 /* Adsweetcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CAB09911997F77D0080CA54 /* Adsweetcher.h */; };
+		2CAB09941997F77D0080CA54 /* Adsweetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB09931997F77D0080CA54 /* Adsweetcher.m */; };
+		2CAB099B1997F77D0080CA54 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB099A1997F77D0080CA54 /* XCTest.framework */; };
+		2CAB099C1997F77D0080CA54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB098C1997F77D0080CA54 /* Foundation.framework */; };
+		2CAB099E1997F77D0080CA54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB099D1997F77D0080CA54 /* UIKit.framework */; };
+		2CAB09A11997F77D0080CA54 /* libAdsweetcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB09891997F77D0080CA54 /* libAdsweetcher.a */; };
+		2CAB09A71997F77D0080CA54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB09A51997F77D0080CA54 /* InfoPlist.strings */; };
+		2CAB09A91997F77D0080CA54 /* AdsweetcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB09A81997F77D0080CA54 /* AdsweetcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CAB099F1997F77D0080CA54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CAB09811997F77D0080CA54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CAB09881997F77D0080CA54;
+			remoteInfo = Adsweetcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CAB09871997F77D0080CA54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2CAB09921997F77D0080CA54 /* Adsweetcher.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CAB09891997F77D0080CA54 /* libAdsweetcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAdsweetcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAB098C1997F77D0080CA54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CAB09901997F77D0080CA54 /* Adsweetcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adsweetcher-Prefix.pch"; sourceTree = "<group>"; };
+		2CAB09911997F77D0080CA54 /* Adsweetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adsweetcher.h; sourceTree = "<group>"; };
+		2CAB09931997F77D0080CA54 /* Adsweetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adsweetcher.m; sourceTree = "<group>"; };
+		2CAB09991997F77D0080CA54 /* AdsweetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsweetcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAB099A1997F77D0080CA54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2CAB099D1997F77D0080CA54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2CAB09A41997F77D0080CA54 /* AdsweetcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdsweetcherTests-Info.plist"; sourceTree = "<group>"; };
+		2CAB09A61997F77D0080CA54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CAB09A81997F77D0080CA54 /* AdsweetcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsweetcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CAB09861997F77D0080CA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB098D1997F77D0080CA54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAB09961997F77D0080CA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB099B1997F77D0080CA54 /* XCTest.framework in Frameworks */,
+				2CAB09A11997F77D0080CA54 /* libAdsweetcher.a in Frameworks */,
+				2CAB099E1997F77D0080CA54 /* UIKit.framework in Frameworks */,
+				2CAB099C1997F77D0080CA54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAB09801997F77D0080CA54 = {
+			isa = PBXGroup;
+			children = (
+				2CAB098E1997F77D0080CA54 /* Adsweetcher */,
+				2CAB09A21997F77D0080CA54 /* AdsweetcherTests */,
+				2CAB098B1997F77D0080CA54 /* Frameworks */,
+				2CAB098A1997F77D0080CA54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CAB098A1997F77D0080CA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB09891997F77D0080CA54 /* libAdsweetcher.a */,
+				2CAB09991997F77D0080CA54 /* AdsweetcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CAB098B1997F77D0080CA54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB098C1997F77D0080CA54 /* Foundation.framework */,
+				2CAB099A1997F77D0080CA54 /* XCTest.framework */,
+				2CAB099D1997F77D0080CA54 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CAB098E1997F77D0080CA54 /* Adsweetcher */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB09911997F77D0080CA54 /* Adsweetcher.h */,
+				2CAB09931997F77D0080CA54 /* Adsweetcher.m */,
+				2CAB098F1997F77D0080CA54 /* Supporting Files */,
+			);
+			path = Adsweetcher;
+			sourceTree = "<group>";
+		};
+		2CAB098F1997F77D0080CA54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB09901997F77D0080CA54 /* Adsweetcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CAB09A21997F77D0080CA54 /* AdsweetcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB09A81997F77D0080CA54 /* AdsweetcherTests.m */,
+				2CAB09A31997F77D0080CA54 /* Supporting Files */,
+			);
+			path = AdsweetcherTests;
+			sourceTree = "<group>";
+		};
+		2CAB09A31997F77D0080CA54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB09A41997F77D0080CA54 /* AdsweetcherTests-Info.plist */,
+				2CAB09A51997F77D0080CA54 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CAB09881997F77D0080CA54 /* Adsweetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAB09AC1997F77D0080CA54 /* Build configuration list for PBXNativeTarget "Adsweetcher" */;
+			buildPhases = (
+				2CAB09851997F77D0080CA54 /* Sources */,
+				2CAB09861997F77D0080CA54 /* Frameworks */,
+				2CAB09871997F77D0080CA54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adsweetcher;
+			productName = Adsweetcher;
+			productReference = 2CAB09891997F77D0080CA54 /* libAdsweetcher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CAB09981997F77D0080CA54 /* AdsweetcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAB09AF1997F77D0080CA54 /* Build configuration list for PBXNativeTarget "AdsweetcherTests" */;
+			buildPhases = (
+				2CAB09951997F77D0080CA54 /* Sources */,
+				2CAB09961997F77D0080CA54 /* Frameworks */,
+				2CAB09971997F77D0080CA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CAB09A01997F77D0080CA54 /* PBXTargetDependency */,
+			);
+			name = AdsweetcherTests;
+			productName = AdsweetcherTests;
+			productReference = 2CAB09991997F77D0080CA54 /* AdsweetcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CAB09811997F77D0080CA54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Adsweetcher, LLC";
+			};
+			buildConfigurationList = 2CAB09841997F77D0080CA54 /* Build configuration list for PBXProject "Adsweetcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CAB09801997F77D0080CA54;
+			productRefGroup = 2CAB098A1997F77D0080CA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CAB09881997F77D0080CA54 /* Adsweetcher */,
+				2CAB09981997F77D0080CA54 /* AdsweetcherTests */,
+				2CAB09B3199801FC0080CA54 /* UniversalAdsweetcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CAB09971997F77D0080CA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB09A71997F77D0080CA54 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CAB09B7199802770080CA54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target Adsweetcher ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target Adsweetcher -configuration ${CONFIGURATION} -sdk iphonesimulator \"ARCHS=i386 x86_64\" \"VALID_ARCHS=i386 x86_64\" BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CAB09851997F77D0080CA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB09941997F77D0080CA54 /* Adsweetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAB09951997F77D0080CA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB09A91997F77D0080CA54 /* AdsweetcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CAB09A01997F77D0080CA54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CAB09881997F77D0080CA54 /* Adsweetcher */;
+			targetProxy = 2CAB099F1997F77D0080CA54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CAB09A51997F77D0080CA54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAB09A61997F77D0080CA54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CAB09AA1997F77D0080CA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CAB09AB1997F77D0080CA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CAB09AD1997F77D0080CA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Adsweetcher.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adsweetcher/Adsweetcher-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2CAB09AE1997F77D0080CA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Adsweetcher.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adsweetcher/Adsweetcher-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2CAB09B01997F77D0080CA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adsweetcher/Adsweetcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AdsweetcherTests/AdsweetcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2CAB09B11997F77D0080CA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adsweetcher/Adsweetcher-Prefix.pch";
+				INFOPLIST_FILE = "AdsweetcherTests/AdsweetcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		2CAB09B5199801FC0080CA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CAB09B6199801FC0080CA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CAB09841997F77D0080CA54 /* Build configuration list for PBXProject "Adsweetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB09AA1997F77D0080CA54 /* Debug */,
+				2CAB09AB1997F77D0080CA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAB09AC1997F77D0080CA54 /* Build configuration list for PBXNativeTarget "Adsweetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB09AD1997F77D0080CA54 /* Debug */,
+				2CAB09AE1997F77D0080CA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAB09AF1997F77D0080CA54 /* Build configuration list for PBXNativeTarget "AdsweetcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB09B01997F77D0080CA54 /* Debug */,
+				2CAB09B11997F77D0080CA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAB09B4199801FC0080CA54 /* Build configuration list for PBXAggregateTarget "UniversalAdsweetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB09B5199801FC0080CA54 /* Debug */,
+				2CAB09B6199801FC0080CA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CAB09811997F77D0080CA54 /* Project object */;
+}
