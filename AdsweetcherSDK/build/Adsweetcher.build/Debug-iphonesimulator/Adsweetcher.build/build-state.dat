@@ -1,165 +1,0 @@
-TAdsweetcher
-v7
-r1
-cCheck dependencies
-cProcessPCH /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch.pch Adsweetcher/Adsweetcher-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.o /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c000000005392AA0300000000000003B4
-t1402120707
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005392AA08000000000000019E
-t1402120712
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000005392AA0A000000000088D8C0
-t1402120714
-s8968384
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c000000005392AA7B0000000000000ADC
-t1402120827
-s2780
-
-N/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher-Prefix.pch
-c0000000053E7BFFD00000000000000B6
-t1407696893
-s182
-
-N/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h
-c0000000053E7C13A0000000000000335
-t1407697210
-s821
-
-N/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m
-c0000000053E7C36A0000000000000F8D
-t1407697770
-s3981
-
-N/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.LinkFileList
-c0000000053E7E06B00000000000000A7
-t1407705195
-s167
-
-N/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.o
-t1407705195
-s30700
-
-N/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher/Adsweetcher.h
-t2
-s0
-
-N/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a
-t2
-s0
-
-N/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-ekotgpczrgapxabziekwodfdouvz/Adsweetcher-Prefix.pch.pch
-t1407703620
-s115312
-
-CCheck dependencies
-r0
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesdee7eca845b0b941^707cfda845b0b941^---0#1#1#--18"Check dependencies36"8A2D0E7D-FF99-4347-AFD1-082DC9DCF678-
-
-CCompileC build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.o /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430982570.109111
-e430982570.138564
-r0
-xCompileC
-xbuild/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.o
-x/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m:10:
-o/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h:18:9: error: expected selector for Objective-C method
-o-(void) 140proofBoot;
-o~~~~~~~~^~~~~~~~~~~~
-o/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h:22:1: warning: multiple declarations of method 'revmobBoot' found and ignored [-Wduplicate-method-match]
-o-(void) revmobBoot;
-o^
-o/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h:21:1: note: previous declaration is here
-o-(void) revmobBoot;
-o^
-o1 warning and 1 error generated.
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m200"CompileC build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.o Adsweetcher/Adsweetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc8271caa45b0b941^537923aa45b0b941^-718"In file included from /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m:10:/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h:18:9: error: expected selector for Objective-C method-(void) 140proofBoot;~~~~~~~~^~~~~~~~~~~~/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h:22:1: warning: multiple declarations of method 'revmobBoot' found and ignored [-Wduplicate-method-match]-(void) revmobBoot;^/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h:21:1: note: previous declaration is here-(void) revmobBoot;^1 warning and 1 error generated.2(36%IDEClangDiagnosticActivityLogMessage2@40"Expected selector for Objective-C method-430982570#18446744073709551615#0#1(2@118"In file included from /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m:10:-430982570#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m0000000000000000^9#8#9#8#152#0#1#21"Apple LLVM 6.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h0000000000000000^17#8#17#8#274#0#1#11"Parse Issue1(3@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h0000000000000000^17#0#17#20#266#8#1#-2@62"Multiple declarations of method 'revmobBoot' found and ignored-430982570#18446744073709551615#0#2(2@118"In file included from /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m:10:-430982570#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m0000000000000000^9#8#9#8#152#0#1#21"Apple LLVM 6.0 Notice--2@28"Previous declaration is here-430982570#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h0000000000000000^20#0#20#0#332#0#1#21"Apple LLVM 6.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h0000000000000000^21#0#21#0#352#0#1#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m0000000000000000^4935"CompileC build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.o Adsweetcher/Adsweetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/local/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-generated-files.hmap -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-own-target-headers.hmap -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-all-target-headers.hmap -iquote /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-project-headers.hmap -I/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/DerivedSources/i386 -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/DerivedSources -F/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator -include /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch -MMD -MT dependencies -MF /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.d --serialize-diagnostics /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.dia -c /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m -o /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/i386/Adsweetcher.o36"E095B837-72F0-446F-ABFE-4B5EE807F290-
-bC563F77D-D26C-4306-90D2-E92B47E76A97
-
-CCompileC build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.o /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429397995.088510
-e429397995.292198
-r1
-xCompileC
-xbuild/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.o
-x/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m
-d/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m204"CompileC build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.o Adsweetcher/Adsweetcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5ad916eb1798b941^95454deb1798b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m0000000000000000^3827"CompileC build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.o Adsweetcher/Adsweetcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-generated-files.hmap -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-own-target-headers.hmap -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-all-target-headers.hmap -iquote /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-project-headers.hmap -I/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/DerivedSources/x86_64 -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/DerivedSources -F/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator -include /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-ekotgpczrgapxabziekwodfdouvz/Adsweetcher-Prefix.pch -MMD -MT dependencies -MF /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.d --serialize-diagnostics /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.dia -c /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.m -o /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.o36"0082DC74-E7F8-4F36-9222-7EADA42D7884-
-bC31F364A-7627-41E7-9F0E-DD55684546A2
-
-CLibtool /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a normal i386
-r0
-
-CLibtool /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a normal x86_64
-s429397995.292802
-e429397995.298348
-r1
-xLibtool
-x/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a
-xnormal
-xx86_64
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Libtool /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a normal x86_64164"Libtool /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a normal x86_649f1e4beb1798b941^d74d4deb1798b941^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1024"Libtool /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a normal x86_64    cd /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator -filelist /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Objects-normal/x86_64/Adsweetcher.LinkFileList -ObjC -framework Foundation -o /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/libAdsweetcher.a36"13A3D2BC-B295-4824-8209-E389218B00E2-
-bC31F364A-7627-41E7-9F0E-DD55684546A2
-
-CPBXCp Adsweetcher/Adsweetcher.h /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher/Adsweetcher.h
-s429397995.298629
-e429397995.300062
-r1
-xPBXCp
-xAdsweetcher/Adsweetcher.h
-x/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher/Adsweetcher.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Copy /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher/Adsweetcher.h191"PBXCp Adsweetcher/Adsweetcher.h /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher/Adsweetcher.hf19d4ceb1798b941^69534deb1798b941^---0#0#1#-19%DVTDocumentLocation2@166"file:///Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher/Adsweetcher.h0034bcc5dfffdf42^617"PBXCp Adsweetcher/Adsweetcher.h /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher/Adsweetcher.h    cd /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher.h /Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include/Adsweetcher36"E6EAE269-6B67-4D56-9A2E-5B36744E88A1-
-bC31F364A-7627-41E7-9F0E-DD55684546A2
-
-CProcessPCH /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-ekotgpczrgapxabziekwodfdouvz/Adsweetcher-Prefix.pch.pch Adsweetcher/Adsweetcher-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch.pch Adsweetcher/Adsweetcher-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430982568.987879
-e430982570.107299
-r1
-xProcessPCH
-x/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch.pch
-xAdsweetcher/Adsweetcher-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher-Prefix.pch
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/Darwin-3D3J0WU2P5731.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/MachO-1K4VTIF2G740N.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/ObjectiveC-OS0514UXREPQ.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/os-3D3J0WU2P5731.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/Dispatch-12WV8IRV15KYC.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/CoreFoundation-2CS1BC9UGP5KS.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/Security-R8VQS7100NX2.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/CFNetwork-1M8562A6L9P49.pcm
-d/var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/org.llvm.clang/ModuleCache/A7XEW7JJ5YPT/Foundation-1UX63L3XL4QMK.pcm
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Precompile /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher-Prefix.pch321"ProcessPCH /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch.pch Adsweetcher/Adsweetcher-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8d24fda845b0b941^79781baa45b0b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher-Prefix.pch0000000000000000^4752"ProcessPCH /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch.pch Adsweetcher/Adsweetcher-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/local/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-generated-files.hmap -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-own-target-headers.hmap -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-all-target-headers.hmap -iquote /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/Adsweetcher-project-headers.hmap -I/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/DerivedSources/i386 -I/Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/build/Adsweetcher.build/Debug-iphonesimulator/Adsweetcher.build/DerivedSources -F/Users/ivan/Library/Developer/Xcode/DerivedData/Adsweetcher-fnbojplngqpqarbwlvxrwhiolupy/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch.d -c /Users/ivan/Documents/git/adswitcher/client/iOSLibrary/Adsweetcher/Adsweetcher/Adsweetcher-Prefix.pch -o /var/folders/hz/w2n27s255kx376_vqys_zgk40000gn/C/com.apple.DeveloperTools/6.0-6A216f/Xcode/6.0-6A216f/Xcode/SharedPrecompiledHeaders/Adsweetcher-Prefix-bwmrfrmbycnoemawyuuqgdvdtnpp/Adsweetcher-Prefix.pch.pch36"CD9A6679-1EE3-434F-958D-BAB7621E60B5-
-bC563F77D-D26C-4306-90D2-E92B47E76A97
-
