@@ -29,7 +29,6 @@
     NSString *url = [NSString stringWithFormat:@"http://www.adsweetcher.com/api/token/userid/%@",token];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     
-    // Create url connection and fire request
     NSURLConnection* conn;
     conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
@@ -38,36 +37,37 @@
 #pragma mark NSURLConnection Delegate Methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
-    // A response has been received, this is where we initialize the instance var you created
-    // so that we can append data to it in the didReceiveData method
-    // Furthermore, this method is called each time there is a redirect so reinitializing it
-    // also serves to clear it
     
     NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)response;
-    if ( [httpResponse statusCode] != 200 ){
-        NSLog( @"Service response is %zd. 200 is expected. Running default Network", [httpResponse statusCode]  );
-        [delegate defaultAdNetwork];
-        return;
-    }
-    
+    statusCode = [httpResponse statusCode];
     responseData = [[NSMutableData alloc] init];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
-    // Append the new data to the instance variable you declared
     [responseData appendData:data];
 }
 
 - (NSCachedURLResponse *)connection:(NSURLConnection *)connection
                   willCacheResponse:(NSCachedURLResponse*)cachedResponse {
-    // Return nil to indicate not necessary to store a cached response for this connection
     return nil;
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
     
+    if ( statusCode != 200 ){
+        NSLog( @"Service response is %zd. 200 is expected. Running default Network", statusCode  );
+        [delegate defaultAdNetwork];
+        return;
+    }
+    
     NSError *jsonParsingError = nil;
+    if (!responseData) {
+        [delegate defaultAdNetwork];
+        return;
+    }
+    
     id jsonObject = [NSJSONSerialization JSONObjectWithData:responseData options:0 error:&jsonParsingError];
+    
     if (!delegate){
         NSLog( @"Delegate should be set" );
     }
@@ -108,9 +108,7 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-    // The request has failed for some reason!
-    // Check the error var
-    NSLog( @"The request has failed for some reason!" );
+    NSLog( @"Request did failed with error:%@", error.description );
 }
 
 - (void) setAppToken:(NSString*) appToken{

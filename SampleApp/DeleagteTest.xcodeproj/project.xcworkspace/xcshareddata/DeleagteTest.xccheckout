@@ -10,31 +10,31 @@
 	<string>DeleagteTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EBF22646-2144-4EBD-9946-BCFF53D20940</key>
-		<string>ssh://bitbucket.org/ensemblestanislavstarastyk/adswitcher.git</string>
+		<key>A36B599E20F62FA4B1621743963F54FDDB4DD6A8</key>
+		<string>github.com:adsweetcher/adsweetcher-ios-sdk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>client/iOS/DeleagteTest.xcodeproj/project.xcworkspace</string>
+	<string>SampleApp/DeleagteTest.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EBF22646-2144-4EBD-9946-BCFF53D20940</key>
-		<string>../../../..</string>
+		<key>A36B599E20F62FA4B1621743963F54FDDB4DD6A8</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://bitbucket.org/ensemblestanislavstarastyk/adswitcher.git</string>
+	<string>github.com:adsweetcher/adsweetcher-ios-sdk.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EBF22646-2144-4EBD-9946-BCFF53D20940</string>
+	<string>A36B599E20F62FA4B1621743963F54FDDB4DD6A8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EBF22646-2144-4EBD-9946-BCFF53D20940</string>
+			<string>A36B599E20F62FA4B1621743963F54FDDB4DD6A8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>adswitcher</string>
+			<string>adsweetcher-ios-sdk</string>
 		</dict>
 	</array>
 </dict>

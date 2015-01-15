@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D0C290319BD96300050BD06 /* libAdsweetcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0C290219BD96300050BD06 /* libAdsweetcher.a */; };
 		2C07F9A11973A3E700D9F8D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C07F9A01973A3E700D9F8D9 /* QuartzCore.framework */; };
 		2C07F9A31973A3F700D9F8D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C07F9A21973A3F700D9F8D9 /* SystemConfiguration.framework */; };
 		2C07F9A51973A40400D9F8D9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C07F9A41973A40400D9F8D9 /* AdSupport.framework */; };
@@ -24,6 +23,7 @@
 		2C0891E41973B0E900477C8D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0891E31973B0E900477C8D /* AudioToolbox.framework */; };
 		2C0891E61973B10800477C8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0891E51973B10800477C8D /* CoreTelephony.framework */; };
 		2C0891E81973B11100477C8D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0891E71973B11100477C8D /* MessageUI.framework */; };
+		2C45E20A1A67A8E8001D2125 /* libAdsweetcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C45E2071A67A8B1001D2125 /* libAdsweetcher.a */; };
 		2CD1DE9318E9E651005890B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD1DE9218E9E651005890B2 /* Foundation.framework */; };
 		2CD1DE9518E9E651005890B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD1DE9418E9E651005890B2 /* CoreGraphics.framework */; };
 		2CD1DE9718E9E651005890B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD1DE9618E9E651005890B2 /* UIKit.framework */; };
@@ -41,6 +41,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C45E2061A67A8B1001D2125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C45E2001A67A8B1001D2125 /* Adsweetcher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2CAB09891997F77D0080CA54;
+			remoteInfo = Adsweetcher;
+		};
+		2C45E2081A67A8B1001D2125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C45E2001A67A8B1001D2125 /* Adsweetcher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2CAB09991997F77D0080CA54;
+			remoteInfo = AdsweetcherTests;
+		};
 		2CD1DEB518E9E651005890B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CD1DE8718E9E651005890B2 /* Project object */;
@@ -51,8 +65,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0C290119BD96300050BD06 /* Adsweetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adsweetcher.h; sourceTree = "<group>"; };
-		1D0C290219BD96300050BD06 /* libAdsweetcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdsweetcher.a; sourceTree = "<group>"; };
 		2C07F9A01973A3E700D9F8D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2C07F9A21973A3F700D9F8D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2C07F9A41973A40400D9F8D9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -87,6 +99,7 @@
 		2C0891E31973B0E900477C8D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		2C0891E51973B10800477C8D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		2C0891E71973B11100477C8D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2C45E2001A67A8B1001D2125 /* Adsweetcher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Adsweetcher.xcodeproj; path = ../AdsweetcherSDK/Adsweetcher.xcodeproj; sourceTree = "<group>"; };
 		2CD1DE8F18E9E651005890B2 /* DeleagteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleagteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD1DE9218E9E651005890B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CD1DE9418E9E651005890B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C45E20A1A67A8E8001D2125 /* libAdsweetcher.a in Frameworks */,
 				2C0891E81973B11100477C8D /* MessageUI.framework in Frameworks */,
 				2C0891E61973B10800477C8D /* CoreTelephony.framework in Frameworks */,
 				2CD1DE9518E9E651005890B2 /* CoreGraphics.framework in Frameworks */,
@@ -127,7 +141,6 @@
 				2C07F9B91973A4B100D9F8D9 /* libChartboost.a in Frameworks */,
 				2C07F9A31973A3F700D9F8D9 /* SystemConfiguration.framework in Frameworks */,
 				2C07F9A11973A3E700D9F8D9 /* QuartzCore.framework in Frameworks */,
-				1D0C290319BD96300050BD06 /* libAdsweetcher.a in Frameworks */,
 				2CD1DE9718E9E651005890B2 /* UIKit.framework in Frameworks */,
 				2CD1DE9318E9E651005890B2 /* Foundation.framework in Frameworks */,
 			);
@@ -146,31 +159,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D0C28FE19BD96300050BD06 /* Adsweetcher */ = {
-			isa = PBXGroup;
-			children = (
-				1D0C28FF19BD96300050BD06 /* include */,
-				1D0C290219BD96300050BD06 /* libAdsweetcher.a */,
-			);
-			path = Adsweetcher;
-			sourceTree = "<group>";
-		};
-		1D0C28FF19BD96300050BD06 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				1D0C290019BD96300050BD06 /* Adsweetcher */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		1D0C290019BD96300050BD06 /* Adsweetcher */ = {
-			isa = PBXGroup;
-			children = (
-				1D0C290119BD96300050BD06 /* Adsweetcher.h */,
-			);
-			path = Adsweetcher;
-			sourceTree = "<group>";
-		};
 		2C07F9AE1973A4B100D9F8D9 /* Chartboost */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,10 +196,19 @@
 			path = Admob;
 			sourceTree = "<group>";
 		};
+		2C45E2011A67A8B1001D2125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C45E2071A67A8B1001D2125 /* libAdsweetcher.a */,
+				2C45E2091A67A8B1001D2125 /* AdsweetcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2CD1DE8618E9E651005890B2 = {
 			isa = PBXGroup;
 			children = (
-				1D0C28FE19BD96300050BD06 /* Adsweetcher */,
+				2C45E2001A67A8B1001D2125 /* Adsweetcher.xcodeproj */,
 				2C07F9BD1973B08000D9F8D9 /* Admob */,
 				2C07F9AE1973A4B100D9F8D9 /* Chartboost */,
 				2CD1DE9818E9E651005890B2 /* DeleagteTest */,
@@ -361,6 +358,12 @@
 			mainGroup = 2CD1DE8618E9E651005890B2;
 			productRefGroup = 2CD1DE9018E9E651005890B2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2C45E2011A67A8B1001D2125 /* Products */;
+					ProjectRef = 2C45E2001A67A8B1001D2125 /* Adsweetcher.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2CD1DE8E18E9E651005890B2 /* DeleagteTest */,
@@ -368,6 +371,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2C45E2071A67A8B1001D2125 /* libAdsweetcher.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAdsweetcher.a;
+			remoteRef = 2C45E2061A67A8B1001D2125 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C45E2091A67A8B1001D2125 /* AdsweetcherTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AdsweetcherTests.xctest;
+			remoteRef = 2C45E2081A67A8B1001D2125 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2CD1DE8D18E9E651005890B2 /* Resources */ = {
@@ -536,6 +556,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../AdsweetcherSDK/Adsweetcher/**",
 				);
 				INFOPLIST_FILE = "DeleagteTest/DeleagteTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -572,6 +593,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../AdsweetcherSDK/Adsweetcher/**",
 				);
 				INFOPLIST_FILE = "DeleagteTest/DeleagteTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;

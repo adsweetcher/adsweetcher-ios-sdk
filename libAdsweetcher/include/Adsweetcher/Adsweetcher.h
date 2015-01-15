@@ -421,6 +421,7 @@
     
     NSMutableData *responseData;
     NSString *token;
+    NSInteger statusCode;
     
 }
 
